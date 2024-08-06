@@ -9,7 +9,9 @@ function sectionOne() {
             <a className="sectionOneButton">
                 <div>About</div>
             </a>
-            <div className="glow"></div>
+            <div className="glowOne"></div>
+            <img className="sectionOneImage" src="/src/assets/SectionOneAIImage.webp"></img>
+            <div className="glowTwo"></div>
         </div>
     </div>
     </>

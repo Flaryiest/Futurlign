@@ -5,7 +5,7 @@
 
 .sectionOne {
     max-width: 100dvw;
-    height: 100dvh;
+    max-height: 1000px;
     display: flex;
     justify-content: center;
     margin-top: 10dvh;
@@ -25,6 +25,8 @@
     font-size: 3em;
     font-weight: 600;
     line-height: 1.2em;
+    flex-wrap: wrap;
+    text-wrap: wrap;
 }
 
 .sectionOneText {
@@ -33,6 +35,7 @@
     text-align: center;
     line-height: 1.7em;
     width: 700px;
+    flex-wrap: wrap;
 }
 
 .aqua {
@@ -40,7 +43,7 @@
 }
 
 
-.glow {
+.glowOne {
     position: absolute;
     bottom: 40%;
     right: 0;
@@ -57,7 +60,7 @@
     width: 112px;
     height: 40px;
     background-color: rgb(43, 252, 207);
-    border-radius: 8px;
+    border-radius: 4px;
     color: black;
     display: flex;
     justify-content: center;
@@ -66,4 +69,26 @@
     font-weight: 600;
     margin-top: 24px;
     box-shadow: 1px 1px 1px 1px rgba(43, 252, 207, 0.5);
+    margin-bottom: 80px;
+}
+
+.sectionOneImage {
+    border-radius: 2%;
+    max-height: 600px;
+    max-width: 80dvw;
+    z-index: 10;
+}
+
+
+.glowTwo {
+    position: absolute;
+    bottom: -250%;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    border-color: rgba(43, 252, 207, 0.5);
+    background-color: rgba(43, 252, 207, 0.5);
+    box-shadow:
+        0 0 500px 300px rgba(43, 252, 207, 0.3);
 }
