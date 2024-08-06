@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 
 import '/src/style/App.css'
 import NavBar from './Navbar'
+import SectionOne from './SectionOne'
 
 function App() {
   const [position, setPosition] = useState(window.scrollY)
@@ -23,6 +24,7 @@ function App() {
   return (
     <div className="appContent">
       <NavBar/>
+      <SectionOne />
     </div>
   )
 }
