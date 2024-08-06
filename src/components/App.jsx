@@ -4,6 +4,7 @@ import '/src/style/App.css'
 import NavBar from './Navbar'
 import SectionOne from './SectionOne'
 import SectionTwo from './SectionTwo'
+import Banner from './Banner'
 function App() {
   const [position, setPosition] = useState(window.scrollY)
   const [visible, setVisible] = useState(true)
@@ -25,6 +26,7 @@ function App() {
     <div className="appContent">
       <NavBar/>
       <SectionOne />
+      <Banner></Banner>
       <SectionTwo />
     </div>
   )

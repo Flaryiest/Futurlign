@@ -8,3 +8,29 @@
 body {
   overflow-x: hidden;
 }
+
+.marquee {
+  width: 100dvw;
+  height: 180px;
+  color: white;
+}
+
+.banner {
+  width: 100dvw;
+  margin-top:  180px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bannerItem {
+  margin-right: 48px;
+}
+
+.bannerHeader {
+  font-size: 2em;
+  color:rgb(43, 252, 207);
+}

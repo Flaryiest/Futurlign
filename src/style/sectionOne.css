@@ -25,17 +25,23 @@
     font-size: 3em;
     font-weight: 600;
     line-height: 1.2em;
+    gap: 12px;
+    display: flex;
     flex-wrap: wrap;
     text-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .sectionOneText {
+    display: flex;
     padding-top: 48px;
     font-size: 1.3em;
     text-align: center;
     line-height: 1.7em;
-    width: 700px;
+    max-width: 700px;
     flex-wrap: wrap;
+    text-wrap: wrap;
 }
 
 .aqua {
@@ -92,3 +98,7 @@
     box-shadow:
         0 0 500px 300px rgba(43, 252, 207, 0.3);
 }
+
+@media only screen and (max-width: 750px) {
+
+  }
