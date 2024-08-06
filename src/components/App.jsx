@@ -4,6 +4,8 @@ import '/src/style/App.css'
 import NavBar from './Navbar'
 import SectionOne from './SectionOne'
 import SectionTwo from './SectionTwo'
+import SectionThree from './SectionThree'
+import SectionFour from './SectionFour'
 import Banner from './Banner'
 function App() {
   const [position, setPosition] = useState(window.scrollY)
@@ -25,9 +27,11 @@ function App() {
   return (
     <div className="appContent">
       <NavBar/>
-      <SectionOne />
+      <SectionOne/>
       <Banner></Banner>
-      <SectionTwo />
+      <SectionTwo/>
+      <SectionThree/>
+      <SectionFour/>
     </div>
   )
 }

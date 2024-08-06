@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("/Poppins-Bold.ttf") format("truetype");
+  }
+
+.sectionFour {
+    max-width: 100dvw;
+    max-height: 1000px;
+    color: white;
+}
+
+.sectionFourContent {
+  display: flex;
+  width: 100dvw;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sectionFourHeader {
+  font-size: 3em;
+  font-family: "Poppins-Bold"
+}
+
+.FaqRow {
+  display: flex;
+  width: 100dvw;
+
+  justify-content: center;
+}

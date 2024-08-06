@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("/Poppins-Regular.ttf") format("truetype");
+  }
+
+.FaqHeader {
+    display: flex;
+    width: 30dvw;
+}
+
+.FaqTitle {
+    font-family: "Poppins";
+    font-size: 2.5em;
+}
+button {
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.FaqClosed {
+    width: 40dvw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.FaqOpen {
+    width: 40dvw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
