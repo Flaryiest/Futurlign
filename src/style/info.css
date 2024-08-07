@@ -87,3 +87,7 @@ html {
     box-shadow:
         0 0 300px 150px rgba(43, 252, 207, 0.3);
 }
+
+.purple {
+    color: rgb(247, 15, 255);
+}

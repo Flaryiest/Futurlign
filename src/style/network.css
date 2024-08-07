@@ -1,5 +1,12 @@
+.network {
+    width: 100dvw;
+    height: 1000px;
+    background-color: #060609;
+}
+
 .networkContent {
     width: 100dvw;
-    height: 2000px;
-    background-color: #060609;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

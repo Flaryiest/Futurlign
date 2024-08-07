@@ -8,7 +8,7 @@ function Info() {
         <div className="infoTemp">
             <div className="infoContent">
                 <div className="infoSection">
-                    <div className="infoSectionHeader">Core Principles:</div>
+                    <div className="infoSectionHeader"><span className="purple">Core Principles:</span></div>
                     <ul className="infoSectionList">
                         <li className="infoSectionListItem">Lorem, ipsum dolor sit amet consectetur</li>
                         <li className="infoSectionListItem">Lorem, ipsum dolor sit amet consectetur</li>
