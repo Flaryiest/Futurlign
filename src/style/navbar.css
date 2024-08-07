@@ -26,3 +26,12 @@
 ul {
     list-style-type: none;
 }
+
+Link {
+    color: white;
+    text-decoration: none;
+}
+a {
+    color: white;
+    text-decoration: none;  
+}

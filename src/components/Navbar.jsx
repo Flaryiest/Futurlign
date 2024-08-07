@@ -1,14 +1,21 @@
 import "/src/style/navbar.css"
-import {useState, useEffect} from "react"
-
+import { Link } from "react-router-dom"
 function NavBar() {
     return (
     <header className="navBar">
-        <div className="logo">Futurlign</div>
+        <div className="logo">
+            <Link to="/">Futurlign</Link>
+        </div>
         <ul className="navLinks">
-            <li>Info</li>
-            <li>Events</li>
-            <li>Network</li>
+            <li>
+                <Link to="/info">Info</Link>
+            </li>
+            <li>
+                <Link to="/events">Events</Link>
+            </li>
+            <li>
+                <Link to="/network">Network</Link>
+            </li>
         </ul>
         <div>
             <a>Join Us</a>
