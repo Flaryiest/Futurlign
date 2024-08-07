@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("/Poppins-Bold.ttf") format("truetype");
+  }
+
+.signUpForm {
+    max-width: 100dvw;
+    max-height: 2000px;
+    background-color: #060609;
+    color: white;
+}
