@@ -1,5 +1,89 @@
-.infoContent {
-    width: 100dvw;
-    height: 2000px;
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("/Poppins-Bold.ttf") format("truetype");
+  }
+
+html {
     background-color: #060609;
+}  
+
+  .info {
+    width: 100dvw;
+    height: 1500px;
+    background-color: #060609;
+    color: rgb(255, 250, 250);
+}
+
+.infoTemp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #060609;
+}
+
+.infoContent {
+    width: 70dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.infoSection {
+    width: 70dvw;
+    margin-bottom: 100px;
+}
+
+.infoSectionHeader {
+    font-size: 2.5em;
+    font-family: "Poppins-Bold";
+}
+
+.infoSectionText {
+    margin-top: 32px;
+    font-size: 1.4em;
+    line-height: 2.5em;
+}
+
+.infoSectionList {
+    list-style-type: circle;
+    margin-top: 32px;
+    padding-left: 24px;
+}
+
+.infoSectionListItem {
+    font-size: 1.4em;
+    line-height: 2.5em;
+    
+}
+
+.infoSectionListItem::marker {
+    color: white;
+}
+
+.glowInfoOne {
+    position: absolute;
+    bottom: 40%;
+    right: 0;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    border-color: rgba(43, 252, 207, 0.5);
+    background-color: rgba(43, 252, 207, 0.5);
+    box-shadow:
+        0 0 300px 150px rgba(43, 252, 207, 0.3);
+}
+
+.glowInfoTwo {
+    position: absolute;
+    bottom: -30%;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    border-color: rgba(43, 252, 207, 0.5);
+    background-color: rgba(43, 252, 207, 0.5);
+    box-shadow:
+        0 0 300px 150px rgba(43, 252, 207, 0.3);
 }
