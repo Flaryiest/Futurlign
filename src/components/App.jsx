@@ -7,6 +7,7 @@ import SectionTwo from './SectionTwo'
 import SectionThree from './SectionThree'
 import SectionFour from './SectionFour'
 import Banner from './Banner'
+import Footer from './Footer'
 function App() {
   const [position, setPosition] = useState(window.scrollY)
   const [visible, setVisible] = useState(true)
@@ -32,6 +33,8 @@ function App() {
       <SectionTwo/>
       <SectionThree/>
       <SectionFour/>
+      <Footer/>
+      
     </div>
   )
 }

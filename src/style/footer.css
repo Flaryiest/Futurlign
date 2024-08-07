@@ -1,0 +1,13 @@
+.footer {
+    width: 100dvw;
+    height: 500px;
+    color: white;
+}
+
+.fade {
+    height: 1px;
+    background-color: white;
+    width: 80dvw;
+    margin: 0 auto;
+    background-image: linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+}

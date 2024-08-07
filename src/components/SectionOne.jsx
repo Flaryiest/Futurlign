@@ -12,6 +12,7 @@ function sectionOne() {
             <div className="glowOne"></div>
             <img className="sectionOneImage" src="/src/assets/SectionOneAIImage.webp"></img>
             <div className="glowTwo"></div>
+            <div className="glowThree"></div>
         </div>
     </div>
     </>
