@@ -14,8 +14,8 @@
 
 .sectionThreeImage {
     max-width: 600px;
-    position: absolute;
-    right: 60%;
+    position: relative;
+
     margin-top: -10%;
     border-radius: 12px;
     border-color: rgb(255, 255, 255);
@@ -25,8 +25,9 @@
 
 .sectionThreeImageOverlap {
     z-index: 3;
-    position: absolute;
-    right: 50%;
+    position: relative;
+    bottom: 400px;
+    left: 44px;
     max-width: 600px;
     border-radius: 12px;
     border-color: rgb(255, 255, 255);
@@ -67,20 +68,20 @@
     .sectionThreeContent {
         margin-top: 30dvh;
     }
+    
     .sectionThreeImage {
         width: 300px;
-        top: 362%;
     }
     .sectionThreeImageOverlap {
+        position: static;
         width: 300px;
-        top: 365%;
     }
     .sectionThreeRight {
         margin-bottom: 20dvh;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .sectionThree {
         height: 1500px;
     }
@@ -93,13 +94,6 @@
         height: 50dvh;
     }
 
-    .sectionThreeImage {
-        right: 20%;
-    }
-
-    .sectionThreeImageOverlap {
-        right: 10%;
-    }
     .sectionThreeRight {
         margin-top: 70dvh;
         width: 100dvw;
@@ -109,3 +103,5 @@
         align-items: center;
     }
 }
+
+

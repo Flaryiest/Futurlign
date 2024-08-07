@@ -1,7 +1,13 @@
 .footer {
     width: 100dvw;
-    height: 500px;
+    height: 300px;
     color: white;
+    background-color: #060609;
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 .fade {
@@ -11,3 +17,49 @@
     margin: 0 auto;
     background-image: linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
 }
+
+.footerContent {
+    width: 80dvw;
+    height: 298px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerHeader {
+    font-size: 1.5em;
+}
+
+.footerContent {
+    text-wrap: wrap;
+    line-height: 1.5em;
+}
+
+.footerLeft {
+    width: 40ch;
+}
+
+.footerMiddle {
+    width: 40ch;
+}
+.footerRight {
+    width: 40ch;
+}
+
+.marginBottom {
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 750px) {
+    .footer {
+        height: 400px;
+    }
+    .footerContent {
+        flex-direction: column;
+        height: 398px;
+    }
+    .footerRight {
+        margin-bottom: 40px;
+    }
+    
+  }
+
