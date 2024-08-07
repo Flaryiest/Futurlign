@@ -1,11 +1,106 @@
 @font-face {
-    font-family: "Poppins-Bold";
-    src: url("/Poppins-Bold.ttf") format("truetype");
-  }
+  font-family: "Poppins-Bold";
+  src: url("/Poppins-Bold.ttf") format("truetype");
+}
 
 .signUpForm {
-    max-width: 100dvw;
-    max-height: 2000px;
-    background-color: #060609;
-    color: white;
+  max-width: 100dvw;
+  max-height: 2000px;
+  background-color: #060609;
+  color: white;
+}
+
+.signUpFormContent {
+  display: flex;
+  flex-direction: column;
+  width: 100dvw;
+  align-items: center;
+  margin-top: 80px;
+  border-style: solid;
+  border-color: white;
+  border-width: 4px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+.signUpHeader {
+  font-size: 3em;
+  font-family: "Poppins-Bold";
+  color: rgb(43, 252, 207);
+  margin-bottom: 30px;
+}
+
+.signUpFormSection {
+  font-size: 1.3em;
+  width: 80dvw;
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+  margin-bottom: 60px;
+}
+
+.signUpFormSectionSkills {
+  font-size: 1.7em;
+  font-family: "Poppins-Bold";
+  width: 80dvw;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.skillRatingsHeader {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.signUpFormSelector {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px 0;
+  height: 50px;
+}
+
+.skillHeader {
+  flex: 1;
+  text-align: left;
+  font-family: "Poppins"
+}
+
+.skillRow {
+  flex: 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skillRow input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  border: solid white;
+  border-width: 4px;
+}
+
+.signUpFormButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(43, 252, 207);
+  border: none;
+  border-radius: 5px;
+  color: #000000;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signUpFormButton:hover {
+  background-color: #00cc99;
+}
+
+.sectionSkillsHeader {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 80px;
 }
