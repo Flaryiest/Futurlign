@@ -12,7 +12,7 @@ function Footer() {
                 <div className="footerContentSmall">Lorem, ipsum dolor sit amet consectetur adipisicing elit. quam cupiditate reiciendis praesentium ratione optio omnis deleniti tempora fugiat?</div>
             </div>
             <div className="footerRight">
-                <div className="footerHeader">Web Design & Development By Eric Zuo at ericmzuo1@gmail.com</div>
+                <div className="footerHeader">Web Design & Development By ericmzuo1@gmail.com</div>
             </div>
         </div>
         <div className="fade marginBottom"></div>

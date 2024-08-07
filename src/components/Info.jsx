@@ -1,14 +1,16 @@
 import NavBar from "/src/components/Navbar.jsx"
 import Footer from "/src/components/Footer.jsx"
 import "/src/style/info.css"
-
+import ScrollToTop from './ScrollToTop'
+import { Fade } from "react-awesome-reveal"
 function Info() {
     return <div className="info">
+        <ScrollToTop/>
         <NavBar/>
         <div className="infoTemp">
             <div className="infoContent">
                 <div className="infoSection">
-                    <div className="infoSectionHeader"><span className="purple">Core Principles:</span></div>
+                    <Fade><div className="infoSectionHeader"><span className="purple">Core Principles:</span></div></Fade>
                     <ul className="infoSectionList">
                         <li className="infoSectionListItem">Lorem, ipsum dolor sit amet consectetur</li>
                         <li className="infoSectionListItem">Lorem, ipsum dolor sit amet consectetur</li>

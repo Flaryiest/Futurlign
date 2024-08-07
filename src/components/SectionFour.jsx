@@ -1,9 +1,10 @@
 import "/src/style/sectionFour.css"
 import FaqBox from "./FaqBox"
+import { Fade } from "react-awesome-reveal";
 function SectionFour() {
     return <div className="sectionFour">
         <div className="sectionFourContent">
-            <h2 className="sectionFourHeader">FAQ</h2>
+            <Fade><h2 className="sectionFourHeader">FAQ</h2></Fade>
             <div className="FaqContainer">
                 <div className="FaqRow">
                     <FaqBox header="What Is The Mission Of This Organization?" content="The mission of our organization Futurlign Is to help spread awareness about the potential downsides of AI."></FaqBox>

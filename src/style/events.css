@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("/Poppins-Bold.ttf") format("truetype");
+  }
+
 .events {
     width: 100dvw;
     height: 2000px;
@@ -19,6 +24,7 @@
     justify-content: center;
     font-size: 3em;
     color: rgb(43, 252, 207);
+    font-family: "Poppins-bold";
 }
 
 .eventsImages {

@@ -1,10 +1,10 @@
 import "/src/style/sectionTwo.css"
-
+import { Fade } from "react-awesome-reveal";
 function SectionTwo() {
     return <>
     <div className="sectionTwo">
         <div className="sectionTwoContent">
-            <h2 className="sectionTwoHeader">What We Hope To Accomplish</h2>
+            <Fade><h2 className="sectionTwoHeader">What We Hope To Accomplish</h2></Fade>
             <div className="sectionTwoRowContainer">
                 <div className="sectionTwoRow">
                     <div className="sectionTwoStatement sectionTwoStatementSmall">

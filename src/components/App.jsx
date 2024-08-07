@@ -8,9 +8,11 @@ import SectionThree from './SectionThree'
 import SectionFour from './SectionFour'
 import Banner from './Banner'
 import Footer from './Footer'
+import ScrollToTop from './ScrollToTop'
 function App() {
   return (
     <div className="appContent">
+      <ScrollToTop/>
       <NavBar/>
       <SectionOne/>
       <Banner></Banner>

@@ -18,7 +18,7 @@ function NavBar() {
             </li>
         </ul>
         <div>
-            <a href="https://forms.gle/trLTkW1dg8vEJ8386"><span className="animated">Join Us</span></a>
+            <a href="https://forms.gle/trLTkW1dg8vEJ8386"><span className="animated secondRow">Join Us</span></a>
         </div>
     </header>
     )
