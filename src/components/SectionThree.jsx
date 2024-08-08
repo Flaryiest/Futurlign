@@ -4,8 +4,8 @@ function SectionThree() {
     return <div className="sectionThree">
         <div className="sectionThreeContent">
             <div className="sectionThreeLeft">
-                <img className="sectionThreeImage" src="/src/assets/SectionThreeImageOne.webp"></img>
-                <img className="sectionThreeImageOverlap" src="/src/assets/SectionThreeImageTwo.webp"></img>
+                <img className="sectionThreeImage" src="/assets/SectionThreeImageOne.webp"></img>
+                <img className="sectionThreeImageOverlap" src="/assets/SectionThreeImageTwo.webp"></img>
             </div>
             <div className="sectionThreeRight">
             <h2 className="sectionThreeHeader">Education is a commodity</h2>
