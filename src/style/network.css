@@ -1,5 +1,5 @@
 .network {
-    width: 100dvw;
+    max-width: 100dvw;
     height: 1000px;
     background-color: #060609;
 }
