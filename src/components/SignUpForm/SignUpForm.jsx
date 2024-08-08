@@ -7,8 +7,19 @@ import { useForm } from "react-hook-form"
 import "/src/style/signUpForm.css"
 function SignUpForm() {
     const {register, handleSubmit, formState: {errors}} = useForm()
-    const onSubmit = (data) => {
+    async function sendForm(data) {
         console.log(data)
+        await fetch("/api/signUp", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({fullName: data.fullName, school: data.school, email: data.email, grade: data.grade})
+        })
+    }
+
+    const onSubmit = (data) => {
+        sendForm(data)
     }
     return <div className="signUpForm">
         <ScrollToTop/>
