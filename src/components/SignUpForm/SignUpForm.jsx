@@ -9,36 +9,34 @@ function SignUpForm() {
         <div className="signUpFormContent">
             <h2 className="signUpHeader">Sign Up</h2>
             <form>
-                <div className="signUpFormSection">
-                    <div className="signUpFormSectionDivider">
-                        <label htmlFor="fullName" className="formTextLabel">Full Name</label>
-                        <input className="formTextInput" name="fullName" id="fullName" type="text"></input>
+                <div class="card">
+                    <div>
+                    <label class="input">
+                        <input class="input__field" type="text" name="fullName" placeholder=" " />
+                        <span class="input__label">Full Name</span>
+                    </label>
+                    <div class="divider"></div>
+                    <label class="input">
+                        <input class="input__field" type="text" name="school" placeholder=" " />
+                        <span class="input__label">School</span>
+                    </label>
+
                     </div>
-                    <div className="signUpFormSectionDivider">
-                        <label htmlFor="email" className="formTextLabel">Email</label>
-                        <input className="formTextInput" name="email" id="email" type="text"></input>
+                    <div>
+                    <label class="input">
+                        <input class="input__field" type="text" name="email" placeholder=" " />
+                        <span class="input__label">Email</span>
+                    </label>
+                    <div class="divider"></div>
+                    <label class="input">
+                        <input class="input__field" type="text" name="grade" placeholder=" " />
+                        <span class="input__label">Grade</span>
+                    </label>
                     </div>
                 </div>
-                <div className="signUpFormSection">
-                    <div className="signUpFormSectionDivider">
-                        <label htmlFor="grade" className="formTextLabel">Grade</label>
-                        <input className="formTextInput" name="grade" id="grade" type="text"></input>
-                    </div>
-                    <div className="signUpFormSectionDivider">
-                        <label htmlFor="school" className="formTextLabel">School</label>
-                        <input className="formTextInput" name="school" id="school" type="text"></input>
-                    </div>
+                <div class="button-group">
+                    <button class="button">Submit</button>
                 </div>
-                <div className="signUpFormSectionSkills">
-                    <div className="sectionSkillsHeader">Please rank your proficiency of these skills from 1 (lowest) to 5 (highest) </div>
-                    <SkillSelector skill="Outreach and Communication"></SkillSelector>
-                    <SkillSelector skill="Graphic Design"></SkillSelector>
-                    <SkillSelector skill="Coding"></SkillSelector>
-                    <SkillSelector skill="AI Knowledge"></SkillSelector>
-                    <SkillSelector skill="Coordination and Logistics"></SkillSelector>
-                    <SkillSelector skill="Public Speaking"></SkillSelector>
-                </div>
-                <button className="signUpFormButton" type="submit">Submit</button>
             </form>
         </div>
         <Footer/>
