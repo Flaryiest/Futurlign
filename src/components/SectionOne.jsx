@@ -11,7 +11,7 @@ function sectionOne() {
                 <div>About</div>
             </Link>
             <div className="glowOne"></div>
-            <img className="sectionOneImage" src="/src/assets/SectionOneAIImage.webp"></img>
+            <img className="sectionOneImage" src="/assets/SectionOneAIImage.webp"></img>
             <div className="glowTwo"></div>
             <div className="glowThree"></div>
         </div>
