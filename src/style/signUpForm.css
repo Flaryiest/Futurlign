@@ -5,6 +5,9 @@
   src: url("/Poppins-Bold.ttf") format("truetype");
 }
 
+body {
+  overflow-y: scroll;
+}
 .signUpForm {
   max-width: 100dvw;
   max-height: 2000px;
@@ -162,6 +165,18 @@ input[type="text"] {
 
 .divider {
   height: 50px;
+}
+
+.signUpFormSubmittedHeader {
+  font-family: "Poppins-bold";
+  font-size: 3em;
+}
+
+.signUpFormSubmittedText {
+
+  font-size: 1.4em;
+  width: 80dvw;
+  text-align: center;
 }
 
 @media only screen and (max-width: 1000px) {

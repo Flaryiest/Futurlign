@@ -3,11 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "proxy": "http://localhost:3000",
   "scripts": {
     "dev": "vite",
-    "build": "node server.cjs",
-    "start": "vite build",
-    "full": "concurrently \"npm run build\" \"npm run dev\"",
+    "build": "vite build",
+    "start": "vite",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -15,6 +15,7 @@
     "@emotion/react": "^11.13.0",
     "axios": "^1.7.3",
     "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
     "curl": "^0.1.4",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
