@@ -11,20 +11,20 @@ function Events() {
             <Fade><h2 className="eventsHeader">Futurlign Aligns</h2></Fade>
             <div className="eventsImages">
                 <div className="eventsImageRow">
-                    <img src="/src/assets/EventsImageOne.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
-                    <img src="/src/assets/EventsImageTwo.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
+                    <img src="/assets/EventsImageOne.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
+                    <img src="/assets/EventsImageTwo.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
                 </div>
                 <div className="eventsImageRow">
-                    <img src="/src/assets/EventsImageThree.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
-                    <img src="/src/assets/EventsImageFour.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
+                    <img src="/assets/EventsImageThree.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
+                    <img src="/assets/EventsImageFour.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
                 </div>
                 <div className="eventsImageRow">
-                    <img src="/src/assets/EventsImageFive.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
-                    <img src="/src/assets/EventsImageSix.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
+                    <img src="/assets/EventsImageFive.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
+                    <img src="/assets/EventsImageSix.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
                 </div>
                 <div className="eventsImageRow">
-                    <img src="/src/assets/EventsImageSeven.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
-                    <img src="/src/assets/EventsImageEight.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
+                    <img src="/assets/EventsImageSeven.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
+                    <img src="/assets/EventsImageEight.webp" className="eventImage" alt="Image of Children Learning How AI Works"></img>
                 </div>
             </div>
             <div className="eventsSection">
