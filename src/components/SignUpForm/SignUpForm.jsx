@@ -8,7 +8,7 @@ function SignUpForm() {
     const {register, handleSubmit, formState: {errors}} = useForm()
     const [isSubmitted, changeIsSubmitted] = useState(false)
     async function sendForm(data) {
-        await fetch("http://futurlign-backend-production.up.railway.app/api/signUp", {
+        await fetch("https://futurlign-backend-production.up.railway.app/api/signUp", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
