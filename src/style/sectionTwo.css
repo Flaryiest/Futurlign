@@ -4,7 +4,7 @@
   }
 
 .sectionTwo {
-    max-width: 100dvw;
+    width: 100dvw;
     height: 1700px;
     display: flex;
     justify-content: center;

@@ -8,7 +8,7 @@ html {
 }  
 
   .info {
-    max-width: 100dvw;
+    width: 100dvw;
     height: 1500px;
     background-color: #060609;
     color: rgb(255, 250, 250);

@@ -1,5 +1,5 @@
 .appContent {
-  max-width: 100dvw;
+  width: 100dvw;
   background-color: #060609;
   display: flex;
   flex-direction: column;

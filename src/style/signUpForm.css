@@ -9,7 +9,7 @@ body {
   overflow-y: scroll;
 }
 .signUpForm {
-  max-width: 100dvw;
+  width: 100dvw;
   max-height: 2000px;
   background-color: #060609;
   color: white;
@@ -173,17 +173,17 @@ input[type="text"] {
 }
 
 .signUpFormSubmittedText {
-
   font-size: 1.4em;
   width: 80dvw;
   text-align: center;
 }
 
 @media only screen and (max-width: 1000px) {
-  .card {
-    margin-left: -60px;
-  }
+
   .input__field {
-    width: 150px;
+    width: 130px;
+  }
+  .card {
+    height: 180px;
   }
 }

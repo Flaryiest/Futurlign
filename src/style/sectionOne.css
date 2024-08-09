@@ -4,7 +4,7 @@
   }
 
 .sectionOne {
-    max-width: 100dvw;
+    width: 100dvw;
     max-height: 1000px;
     display: flex;
     justify-content: center;
