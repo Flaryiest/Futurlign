@@ -180,10 +180,10 @@ input[type="text"] {
 }
 
 @media only screen and (max-width: 1000px) {
-  .card {
-    margin-left: -60px;
-  }
   .input__field {
-    width: 150px;
+    width: 130px;
+  }
+  .card {
+    height: 180px;
   }
 }
