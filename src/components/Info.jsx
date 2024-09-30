@@ -12,22 +12,22 @@ function Info() {
                 <div className="infoSection">
                     <Fade><div className="infoSectionHeader"><span className="purple">Core Principles:</span></div></Fade>
                     <ul className="infoSectionList">
-                        <li className="infoSectionListItem">Lorem, ipsum dolor sit amet consectetur</li>
-                        <li className="infoSectionListItem">Lorem, ipsum dolor sit amet consectetur</li>
-                        <li className="infoSectionListItem">Lorem, ipsum dolor sit amet consectetur</li>
+                        <li className="infoSectionListItem">Providing accessible learning resources in AI and coding as a fundamental right for all.</li>
+                        <li className="infoSectionListItem">Ensuring AI technologies are developed responsibly and align with human values</li>
+                        <li className="infoSectionListItem">Promoting teamwork and partnerships to inspire innovative solutions for global challenges.</li>
                     </ul>
                 </div>
                 <div className="infoSection">
                     <div className="infoSectionHeader">Motivation</div>
-                    <div className="infoSectionText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum veritatis ab eligendi placeat qui, ipsam unde fuga, reiciendis ducimus iusto quia. Porro, laborum molestiae. Ratione, reprehenderit quos. Praesentium, cupiditate adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aut ipsam corrupti neque quas, obcaecati repudiandae magni tempore sint doloribus, esse quidem eos! Doloribus, fugit. Enim blanditiis soluta perspiciatis quis?</div>
+                    <div className="infoSectionText">At Futurlign, we are driven by the belief that education in AI and coding can empower individuals to shape a better future. We aim to inspire curiosity and innovation among youth, encouraging them to explore the limitless possibilities of technology. Our motivation lies in creating a supportive environment where young minds can thrive and make meaningful contributions to society.</div>
                 </div>
                 <div className="infoSection">
                     <div className="infoSectionHeader">What</div>
-                    <div className="infoSectionText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum veritatis ab eligendi placeat qui, ipsam unde fuga, reiciendis ducimus iusto quia. Porro, laborum molestiae. Ratione, reprehenderit quos. Praesentium, cupiditate adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quibusdam culpa dolore aperiam saepe deleniti officia quaerat veritatis at quia repellat adipisci, ullam, molestias ipsa voluptas cum tempora iste odio!</div>
+                    <div className="infoSectionText">Futurlign offers workshops, coding classes, and resources focused on AI and alignment to equip individuals with essential skills. We provide hands-on learning experiences that foster creativity and critical thinking in technology. Through our programs, we aim to inspire the next generation to engage with AI and coding responsibly and innovatively.</div>
                 </div>
                 <div className="infoSection">
                     <div className="infoSectionHeader">Who</div>
-                    <div className="infoSectionText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum veritatis ab eligendi placeat qui, ipsam unde fuga, reiciendis ducimus iusto quia. Porro, laborum molestiae. Ratione, reprehenderit quos. Praesentium, cupiditate adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat cum repellendus ratione explicabo ducimus perferendis sit. Nihil distinctio voluptas ut tenetur pariatur, earum repellat odio dignissimos quae molestias eos repudiandae?</div>
+                    <div className="infoSectionText">Futurlign is a youth-run non-profit organization dedicated to educating individuals about AI, alignment, and coding. Our team comprises passionate young leaders committed to making technology accessible to everyone. We strive to create a global community where individuals can learn, collaborate, and innovate together.</div>
                 </div>
             </div>    
         </div>

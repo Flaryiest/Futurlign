@@ -29,11 +29,11 @@ function Events() {
             </div>
             <div className="eventsSection">
                 <Fade><h2 className="eventsHeader">Upcoming Events</h2></Fade>
-                <div className="eventsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus facilis in magni ab voluptates eligendi quia atque voluptatum ullam harum laboriosam deleniti, illum quos omnis explicabo facere ratione nostrum? Mollitia.</div>
+                <div className="eventsText">Check back in the near future! We will have new events around the start of october.</div>
             </div>
             <div className="eventsSection">
                 <Fade><h2 className="eventsHeader">Past Events</h2></Fade>
-                <div className="eventsText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus facilis in magni ab voluptates eligendi quia atque voluptatum ullam harum laboriosam deleniti, illum quos omnis explicabo facere ratione nostrum? Mollitia.</div>
+                <div className="eventsText">Our AI workshops and coding classes have successfully educated over 100 children, igniting their interest in technology and innovation. Participants explored foundational concepts of artificial intelligence, learning how AI systems operate and the principles behind machine learning. Through hands-on experience with Python coding and TensorFlow, students gained practical skills in building their own AI models and applications. By fostering a collaborative environment, we empowered young learners to experiment and innovate, equipping them with the knowledge and confidence to pursue further education in tech.</div>
             </div>
         </div>
         <Footer/>

@@ -46,6 +46,10 @@
     width: 40ch;
 }
 
+.link {
+    color: aqua;
+    font-weight: bold;
+}
 .marginBottom {
     margin-bottom: 40px;
 }
