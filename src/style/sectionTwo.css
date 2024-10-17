@@ -88,3 +88,13 @@
         width: 80dvw;
     }
 }
+
+
+@media only screen and (max-width: 600px) {
+    .sectionTwo {
+        height: 2100px;
+    }
+    .sectionTwoStatement {
+        min-height: 500px;
+    }
+}

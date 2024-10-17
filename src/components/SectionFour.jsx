@@ -4,12 +4,9 @@ import { Fade } from "react-awesome-reveal";
 function SectionFour() {
     return <div className="sectionFour">
         <div className="sectionFourContent">
-            <Fade><h2 className="sectionFourHeader">FAQ</h2></Fade>
+            <Fade><h2 className="sectionFourHeader">Support Us</h2></Fade>
             <div className="FaqContainer">
-                <div className="FaqRow">
-                    <FaqBox header="What Is The Mission Of This Organization?" content="The mission of our organization Futurlign Is to help spread awareness about the potential downsides of AI."></FaqBox>
-                    <FaqBox header="How Can I Get Involved?" content="If you would like join us, please call us at 403-145-3123"></FaqBox>
-                </div>
+                <div className="sectionFourMainText">As a registered Canadian non-profit, we rely on your support in our pursuit of our mission. If you would like to help fund us and donate, please reach out to us at <a className="aqua bold" href="mailto: info.futurlign@gmail.com">info.futurlign@gmail.com</a>. We truly value any and all donations that we receive.</div>
             </div>
         </div>
     

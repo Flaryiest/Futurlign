@@ -34,6 +34,16 @@
   margin-top: 8dvh;
 }
 
+.sectionFourMainText {
+  font-size: 1.5em;
+  line-height: 2;
+  width: 60dvw;
+}
+
+.bold {
+  font-family: "Poppins-bold";
+}
+
 @media only screen and (max-width: 900px) {
   .FaqRow {
     justify-content: center;

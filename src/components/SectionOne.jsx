@@ -5,8 +5,14 @@ function sectionOne() {
     return <>
     <div className="sectionOne">
         <div className="sectionOneContent">
-            <Fade><h1 className="sectionOneHeader">Aligning The <span className="aqua">Future Together.</span></h1></Fade>
-            <div className="sectionOneText">Founded by passionate individuals with diverse backgrounds, our organization strives to promote understanding and awareness of AI’s potential impact on our lives. </div>
+            <Fade>
+                <div className="sectionOneSubHeader">
+                    <span className="sectionOneSubHeaderOne">Artificial Intelligence is changing the world.</span>
+                    <span className="sectionOneSubHeaderTwo">Artificial Intelligence will continue changing the world.</span>
+                </div>
+                <h1 className="sectionOneHeader"><span className="aqua">Our mission is to ensure this change benefits everyone.</span></h1>
+            </Fade>
+            <div className="sectionOneText">Founded by passionate individuals with diverse backgrounds, we are a registered Canadian non-profit organization striving to promote understanding and awareness of AI’s potential impact on our lives. </div>
             <Link to="/info" className="sectionOneButton">
                 <div>About</div>
             </Link>
