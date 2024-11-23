@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     margin-top: 8dvh;
-    color: white;
+    color: #060609;
 }
 
 .sectionOneContent {
@@ -46,11 +46,11 @@
 }
 
 .sectionOneSubHeaderOne {
-    color: rgb(228, 228, 228);
+    color: rgb(112, 112, 112);
 }
 
 .sectionOneSubHeaderTwo {
-    color: white;
+    color: #060609;
 }
 
 .sectionOneText {
