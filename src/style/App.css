@@ -1,6 +1,6 @@
 .appContent {
   max-width: 100dvw;
-  background-color: #ffffff;
+  background-color: #060609;
   display: flex;
   flex-direction: column;
 }
@@ -19,7 +19,7 @@ body {
   margin-top:  180px;
   margin-bottom: 0px;
   font-size: 1.5em;
-  color: #060609;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;

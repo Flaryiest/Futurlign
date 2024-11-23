@@ -8,9 +8,9 @@
     padding-right: 10dvw;
     padding-top: 32px;
     padding-bottom: 32px;
-    color: #060609;
+    color: white;
     backdrop-filter: blur(10px);
-    background-color: rgba(236, 236, 236, 0.5);
+    background-color: rgba(18, 18, 26, 0.5);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 20px 0px;
     flex-wrap: wrap;
     position: sticky;
@@ -28,12 +28,12 @@ ul {
 }
 
 Link {
-    color: #060609;
+    color: white;
     text-decoration: none;
 }
 a {
-  color: #060609;
-  text-decoration: none;  
+    color: white;
+    text-decoration: none;  
 }
 
 
