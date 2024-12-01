@@ -6,6 +6,7 @@
     color: var(--primary-text-color);
     font-family: 'Inter Tight', 'Roboto', Inter, sans-serif;
     line-height: 1.5;
+    max-width: 100%;
 }
 
 .network-content {
@@ -14,6 +15,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 48px;
+    
 }
 
 .network-team {
@@ -24,6 +26,7 @@
     font-size: var(--header-text-size);
     margin-bottom: 20px;
     text-align: center;
+    margin-right: 16px;
 }
 
 .network-sub-header {
@@ -31,6 +34,7 @@
     color: var(--secondary-color);
     font-weight: bold;
     text-align: center;
+    
 }
 
 .network-director-card-container {
@@ -72,7 +76,12 @@
     min-width: 400px;
     border-radius: 16px;
 }
+
+
 @media only screen and (max-width: 500px) {
+    .network-header {
+        margin-right: 0px;
+    }
     .network-director-card-container {
         gap: 64px;
     }

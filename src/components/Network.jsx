@@ -8,7 +8,7 @@ function Network() {
         <ScrollToTop/>
         <NavBar/>
         <div className="network-content">
-            <Banner/>
+        <Banner />
             <div className="network-team">
                 <h2 className="network-header">Our Team</h2>
                 <div className="network-directors">
