@@ -3,6 +3,7 @@ import Footer from "/src/components/Footer.jsx"
 import ScrollToTop from './ScrollToTop'
 import { Fade } from "react-awesome-reveal";
 import "/src/style/events.css"
+import "/src/style/App.css"
 function Events() {
     return <div className="events">
         <ScrollToTop/>
@@ -29,7 +30,7 @@ function Events() {
             </div>
             <div className="eventsSection">
                 <Fade><h2 className="eventsHeader">Upcoming Events</h2></Fade>
-                <div className="eventsText">Check back in the near future! We will have new events around the start of october.</div>
+                <div className="eventsText">Check back in the near future! We will have new events around the start of January.</div>
             </div>
             <div className="eventsSection">
                 <Fade><h2 className="eventsHeader">Past Events</h2></Fade>

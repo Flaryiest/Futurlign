@@ -1,12 +1,100 @@
 .network {
-    max-width: 100dvw;
-    height: 1000px;
-    background-color: #060609;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    font-family: 'Inter Tight', 'Roboto', Inter, sans-serif;
+    line-height: 1.5;
+    max-width: 100%;
 }
 
-.networkContent {
+.network-content {
     width: 100dvw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 48px;
+    
 }
+
+.network-team {
+    width: 90%;
+}
+
+.network-header {
+    font-size: var(--header-text-size);
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 16px;
+}
+
+.network-sub-header {
+    font-size: 1.5em;
+    color: var(--secondary-color);
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.network-director-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 48px;
+}
+
+.network-director-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    color: var(--primary-text-color);
+    min-width: 400px;
+}
+.network-director-card-name {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+.network-director-card-title {
+    font-size: 1.3em;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+.network-director-card-description {
+    font-size: 1.2em;
+    max-width: 400px;
+}
+
+.network-director-card-image {
+    flex: 1;
+    max-width: 400px;
+    min-width: 400px;
+    border-radius: 16px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .network-header {
+        margin-right: 0px;
+    }
+    .network-director-card-container {
+        gap: 64px;
+    }
+    .network-director-card-image {
+        min-width: 300px;
+        max-width: 300px;
+    }
+    .network-director-card-description {
+        max-width: 300px;
+    }
+    .network-director-card-title {
+        max-width: 400px;
+        text-align: center;
+    }
+}
+

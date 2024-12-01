@@ -4,21 +4,28 @@
   }
 
 html {
-    background-color: #060609;
+    background-color: white;
 }  
 
   .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    font-family: 'Inter Tight', 'Roboto', Inter, sans-serif;
+    line-height: 1.5;
+
     max-width: 100dvw;
     height: 1500px;
-    background-color: #060609;
-    color: rgb(255, 250, 250);
+    background-color: white;
+    color: var(--primary-text-color);
 }
 
 .infoTemp {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #060609;
 }
 
 .infoContent {
@@ -36,7 +43,7 @@ html {
 }
 
 .infoSectionHeader {
-    font-size: 2.5em;
+    font-size: 2.2em;
     font-family: "Poppins-Bold";
 }
 
@@ -59,35 +66,7 @@ html {
 }
 
 .infoSectionListItem::marker {
-    color: white;
+    color: var(--primary-text-color);
+    background-color: var(--primary-text-color);
 }
 
-.glowInfoOne {
-    position: absolute;
-    bottom: 40%;
-    right: 0;
-    width: 1px;
-    height: 1px;
-    border-radius: 50%;
-    border-color: rgba(43, 252, 207, 0.5);
-    background-color: rgba(43, 252, 207, 0.5);
-    box-shadow:
-        0 0 300px 150px rgba(43, 252, 207, 0.3);
-}
-
-.glowInfoTwo {
-    position: absolute;
-    bottom: -30%;
-    left: 0;
-    width: 1px;
-    height: 1px;
-    border-radius: 50%;
-    border-color: rgba(43, 252, 207, 0.5);
-    background-color: rgba(43, 252, 207, 0.5);
-    box-shadow:
-        0 0 300px 150px rgba(43, 252, 207, 0.3);
-}
-
-.purple {
-    color: rgb(247, 15, 255);
-}

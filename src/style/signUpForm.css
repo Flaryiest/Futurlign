@@ -1,18 +1,12 @@
-@import url('https://rsms.me/inter/inter.css');
-
-@font-face {
-  font-family: "Poppins-Bold";
-  src: url("/Poppins-Bold.ttf") format("truetype");
-}
-
-body {
-  overflow-y: scroll;
-}
 .signUpForm {
-  max-width: 100dvw;
-  max-height: 2000px;
-  background-color: #060609;
-  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  font-family: 'Inter Tight', 'Roboto', Inter, sans-serif;
+  line-height: 1.5;
+
 }
 
 .signUpFormContent {
@@ -25,18 +19,18 @@ body {
 }
 
 .signUpHeader {
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: "Poppins-Bold";
-  color: rgb(43, 252, 207);
+  color: var(--primary-text-color);
   margin-bottom: 30px;
 }
 
 
 
 .signUpFormContent {
-  --color-light: #060609;
-  --color-dark: white;
-  --color-signal: rgb(43, 252, 207);
+  --color-light: white;
+  --color-dark: var(--primary-text-color);
+  --color-signal: var(--tag-text-color);
   --color-background: var(--color-light);
   --color-text: var(--color-dark);
   --color-accent: var(--color-signal);
@@ -133,16 +127,16 @@ mark {
 .button {
   width: 112px;
   height: 40px;
-  background-color: rgb(43, 252, 207);
+  background-color: var(--tag-background-color);
   border-radius: 4px;
-  color: black;
+  color: var(--primary-text-color);
   display: flex;
   justify-content: center;
   align-self: center;
   align-items: center;
   font-weight: 600;
   margin-top: 24px;
-  box-shadow: 1px 1px 1px 1px rgba(43, 252, 207, 0.5);
+  box-shadow: 1px 1px 1px 1px var(--tag-background-color);
   margin-bottom: 80px;
   transition: box-shadow 0.15s;
   font-size: 1.05em;
@@ -150,7 +144,7 @@ mark {
 }
 
 .button:hover {
-  box-shadow: 0px 0px 5px 5px rgba(43, 252, 207, 0.5);
+  box-shadow: 0px 0px 5px 5px var(--tag-background-color);
   cursor: pointer;
 }
 
