@@ -1,13 +1,16 @@
 .footer {
-    width: 100dvw;
+    width: 100%;
     height: 300px;
-    color: white;
-    background-color: #060609;
+    color: var(--primary-text-color);
+    background-color: white;
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
-    justify-content: center;
+    margin-top: 20px;
+    justify-content: space-between;
     align-items: center;
+    font-family: "Inter Tight";
+    line-height: 1.5;
+    text-align: center;
 }
 
 .fade {
@@ -47,7 +50,7 @@
 }
 
 .link {
-    color: aqua;
+    color: rgb(255, 0, 255);
     font-weight: bold;
 }
 .marginBottom {

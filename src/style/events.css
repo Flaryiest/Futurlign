@@ -4,12 +4,14 @@
   }
 
 .events {
-    max-width: 100dvw;
-    height: 2000px;
-    background-color: #060609;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    font-family: 'Inter Tight', 'Roboto', Inter, sans-serif;
+    line-height: 1.5;
 }
-
 .eventsContent {
     display: flex;
     width: 100dvw;
@@ -22,8 +24,8 @@
     width: 100dvw;
     text-align: center;
     justify-content: center;
-    font-size: 3em;
-    color: rgb(43, 252, 207);
+    font-size: 2.5em;
+    color: var(--primary-text-color);
     font-family: "Poppins-bold";
 }
 
@@ -59,7 +61,7 @@
 
 .eventsText {
     width: 60dvw;
-    font-size: 1.5em;
+    font-size: 1.4em;
     line-height: 2em;
 
 }

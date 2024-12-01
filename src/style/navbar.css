@@ -1,41 +1,29 @@
-
-
 .navBar {
     display: flex;
     max-width: 100dvw;
+    width: 100%;
     justify-content: space-between;
     padding-left: 10dvw;
     padding-right: 10dvw;
+    margin-left: 10dvw;
+    margin-right: 10dvw;
     padding-top: 32px;
     padding-bottom: 32px;
-    color: white;
+    color: var(--primary-text-color);
     backdrop-filter: blur(10px);
-    background-color: rgba(18, 18, 26, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 20px 0px;
     flex-wrap: wrap;
     position: sticky;
     top: 0;
     z-index: 100;
+    border-radius: 16px;
 }
 
 .navLinks {
     display: flex;
     gap: 48px;
 }
-
-ul {
-    list-style-type: none;
-}
-
-Link {
-    color: white;
-    text-decoration: none;
-}
-a {
-    color: white;
-    text-decoration: none;  
-}
-
 
 .animated {
     background: radial-gradient(
