@@ -4,7 +4,7 @@ function NavBar() {
     return (
     <header className="navBar">
         <div className="logo">
-            <Link to="/">Futurlign</Link>
+            <Link to="/"><img className="logo-image" src="/assets/futurlign-logo.png"></img></Link>
         </div>
         <ul className="navLinks">
             <li>
@@ -17,8 +17,8 @@ function NavBar() {
                 <Link to="/network">Network</Link>
             </li>
         </ul>
-        <div>
-            <Link to="/signUp"><span className="animated secondRow">Join Us</span></Link>
+        <div className="sign-up-button">
+            <Link to="/signUp" ><span className="animated secondRow">Join Us</span></Link>
         </div>
     </header>
     )

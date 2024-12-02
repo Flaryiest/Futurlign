@@ -5,10 +5,10 @@
     justify-content: space-between;
     padding-left: 10dvw;
     padding-right: 10dvw;
-    margin-left: 10dvw;
+    margin-left: 7dvw;
     margin-right: 10dvw;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     color: var(--primary-text-color);
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.7);
@@ -23,9 +23,21 @@
 .navLinks {
     display: flex;
     gap: 48px;
+    align-items: center;
+}
+
+.logo-image {
+  height: 40px;
+}
+.sign-up-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .animated {
+  align-self: center;
     background: radial-gradient(
       circle at 100%,
       #b2a8fd,
@@ -46,3 +58,5 @@
       background-position: 200% center;
     }
   }
+
+
