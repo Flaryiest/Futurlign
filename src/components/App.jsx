@@ -65,7 +65,7 @@ function App() {
       <div className="section-three-content">
         <div className="section-three-left">
           <img
-            className="section-three-image-overlap"
+            className="section-three-image"
             src="/assets/SectionThreeImageTwo.webp"
             alt="Overlap Image"
           />
