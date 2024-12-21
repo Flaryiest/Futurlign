@@ -270,12 +270,9 @@ button {
 
 .section-one-image {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   border-radius: 16px;
   padding-left: 2em;
-}
-#up {
-  margin-top: -80px;
 }
 
 .section-one-text {
@@ -338,7 +335,13 @@ button {
 }
 
 
-
+.section-one-buttons {
+  width: 100%;
+  justify-content: space-evenly;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 80px;
+}
 
 
 .section-three-right {

@@ -8,13 +8,10 @@ function NavBar() {
         </div>
         <ul className="navLinks">
             <li>
-                <Link to="/info">Info</Link>
-            </li>
-            <li>
                 <Link to="/events">Events</Link>
             </li>
             <li>
-                <Link to="/network">Network</Link>
+                <Link to="/network">Information</Link>
             </li>
         </ul>
         <div className="sign-up-button">

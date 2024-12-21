@@ -9,6 +9,13 @@ function Events() {
         <ScrollToTop/>
         <NavBar/>
         <div className="eventsContent">
+            <div className="events-section">
+                <Fade><h3 className="eventsHeader">Prepare For the Future</h3></Fade>
+                <Fade><h4 className="events-sub-header">General Interest Form</h4></Fade>
+                <button className="section-one-button">Apply Here</button>
+                <p className="events-info-text">Register for our email communications to stay informed on upcoming events.</p>
+            </div>
+
             <Fade><h2 className="eventsHeader">Futurlign Aligns</h2></Fade>
             <div className="eventsImages">
                 <div className="eventsImageRow">
@@ -34,7 +41,7 @@ function Events() {
             </div>
             <div className="eventsSection">
                 <Fade><h2 className="eventsHeader">Past Events</h2></Fade>
-                <div className="eventsText">Our AI workshops and coding classes have successfully educated over 100 children, igniting their interest in technology and innovation. Participants explored foundational concepts of artificial intelligence, learning how AI systems operate and the principles behind machine learning. Through hands-on experience with Python coding and TensorFlow, students gained practical skills in building their own AI models and applications. By fostering a collaborative environment, we empowered young learners to experiment and innovate, equipping them with the knowledge and confidence to pursue further education in tech.</div>
+                <div className="eventsText">Our 2024 AI workshops and coding classes have seen over 100 Calgary-area junior high youth successfully complete courses at the University of Calgary and Calgary Public Library, igniting their interest in technology and innovation. Participants explored foundational concepts of artificial intelligence, learning how AI systems operate and the principles behind machine learning. Through hands-on experience with Python coding and TensorFlow, students gained practical skills in building their own AI models and applications. AI Ethics, Responsible and Sustainable Usage, and Alignment were also covered to great importance.</div>
             </div>
         </div>
         <Footer/>

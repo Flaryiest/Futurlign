@@ -24,7 +24,7 @@
     width: 100dvw;
     text-align: center;
     justify-content: center;
-    font-size: 2.5em;
+    font-size: 2.3em;
     color: var(--primary-text-color);
     font-family: "Poppins-bold";
 }
@@ -66,6 +66,22 @@
 
 }
 
+.events-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 80px;
+}
+
+.events-sub-header {
+    font-size: 1.8em;
+}
+.events-info-text {
+    font-size: 1.2em;
+}
+
 @media only screen and (max-width: 1100px) {
     .eventsImageRow {
         flex-direction: column;
@@ -76,5 +92,9 @@
     .eventImage {
         width: 400px;
         height: 300px;
+    }
+    .events-info-text {
+        text-align: center;
+        margin: 0 8px;
     }
 }

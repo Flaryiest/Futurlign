@@ -31,8 +31,6 @@ function Info() {
                 </div>
             </div>    
         </div>
-        <div className="glowInfoOne"></div>
-        <div className="glowInfoTwo"></div>
         <Footer/>
     </div>
 }

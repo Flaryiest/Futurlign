@@ -19,14 +19,18 @@ function App() {
           </div>
           <h1 className="section-one-header"><span className="aqua">Our mission is to ensure this change benefits everyone.</span></h1>
         </Fade>
-        <div className="section-one-text">Founded by passionate individuals with diverse backgrounds, we are a registered Canadian non-profit organization striving to promote understanding and awareness of AI’s potential impact on our lives.</div>
-        <Link to="/info" className="section-one-button">
-          <div>About</div>
-        </Link>
-        <div className="glow-one"></div>
+        <div className="section-one-text">Futurlign is a registered Canadian non-profit based in Calgary striving to promote accessibility and equity regarding AI awareness and its impact on our lives.</div>
+        <div className="section-one-buttons">
+          <Link to="/events" className="section-one-button">
+            <div>Events and Information</div>
+          </Link>
+
+          <Link to="/network" className="section-one-button">
+            <div>About</div>
+          </Link>
+        </div>
+
         <img className="section-one-image" id="up" src="/assets/index-image-ai.png" alt="AI Illustration" />
-        <div className="glow-two"></div>
-        <div className="glow-three"></div>
       </div>
     </div>
     <Banner />
