@@ -12,7 +12,7 @@ function Events() {
             <div className="events-section">
                 <Fade><h3 className="eventsHeader">Prepare For the Future</h3></Fade>
                 <Fade><h4 className="events-sub-header">General Interest Form</h4></Fade>
-                <button className="section-one-button">Apply Here</button>
+                <a href="https://forms.gle/EhqccrrFwhqtyypU8" className="section-one-button">Apply Here</a>
                 <p className="events-info-text">Register for our email communications to stay informed on upcoming events.</p>
             </div>
 
