@@ -5,35 +5,17 @@ import { Fade } from "react-awesome-reveal";
 import "/src/style/events.css";
 import "/src/style/App.css";
 import Form from './Form';
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 
 function Events() {
     const [formOpen, setFormOpen] = useState(false);
-    const buttonRef = useRef(null);
 
     const handleButtonClick = () => {
-        const formElement = document.querySelector('.tally-popup');
-        console.log("test", formElement)
-        if (!formElement) {
-            setFormOpen(true);
-            if (window.Tally) {
-                window.Tally.openPopup('mVoRea');
-            }
+        setFormOpen(!formOpen);
+        if (!formOpen && window.Tally) {
+            window.Tally.openPopup('mVoRea');
         }
     };
-
-    useEffect(() => {
-        const handleClickOutside = (event) => {
-            if (buttonRef.current && !buttonRef.current.contains(event.target)) {
-                setFormOpen(false);
-            }
-        };
-
-        document.addEventListener("mousedown", handleClickOutside);
-        return () => {
-            document.removeEventListener("mousedown", handleClickOutside);
-        };
-    }, [buttonRef]);
 
     return (
         <div className="events">
@@ -43,7 +25,7 @@ function Events() {
                 <div className="events-section">
                     <Fade><h3 className="eventsHeader">Prepare For the Future</h3></Fade>
                     <Fade><h4 className="events-sub-header">General Interest Form</h4></Fade>
-                    <button ref={buttonRef} onClick={handleButtonClick} className="section-one-button">Apply Here</button>
+                    <button onClick={handleButtonClick} className="section-one-button">Apply Here</button>
                     <p className="events-info-text">Register for our email communications to stay informed on upcoming events.</p>
                 </div>
 
@@ -76,7 +58,6 @@ function Events() {
                 </div>
             </div>
             <Footer />
-
         </div>
     );
 }
