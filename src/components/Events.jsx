@@ -2,6 +2,7 @@ import NavBar from "/src/components/Navbar.jsx"
 import Footer from "/src/components/Footer.jsx"
 import ScrollToTop from './ScrollToTop'
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 import "/src/style/events.css"
 import "/src/style/App.css"
 function Events() {
@@ -12,7 +13,7 @@ function Events() {
             <div className="events-section">
                 <Fade><h3 className="eventsHeader">Prepare For the Future</h3></Fade>
                 <Fade><h4 className="events-sub-header">General Interest Form</h4></Fade>
-                <a href="https://tally.so/r/mVoRea" className="section-one-button">Apply Here</a>
+                <Link href="/form" className="section-one-button">Apply Here</Link>
                 <p className="events-info-text">Register for our email communications to stay informed on upcoming events.</p>
             </div>
 
