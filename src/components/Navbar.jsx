@@ -15,7 +15,7 @@ function NavBar() {
             </li>
         </ul>
         <div className="sign-up-button">
-            <Link to="/signUp" ><span className="animated secondRow">Join Us</span></Link>
+            <Link to="/signup" ><span className="animated secondRow">Join Us</span></Link>
         </div>
     </header>
     )
