@@ -13,6 +13,7 @@ function Events() {
 
     const handleButtonClick = () => {
         const formElement = document.querySelector('.tally-popup');
+        console.log("test", formElement)
         if (!formElement) {
             setFormOpen(true);
             if (window.Tally) {
