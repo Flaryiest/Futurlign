@@ -15,10 +15,14 @@ function Events() {
         const formElement = document.querySelector('.tally-popup');
         console.log("test", formElement)
         if (!formElement) {
+            console.log(window.Tally)
             setFormOpen(true);
-            if (window.Tally) {
-                window.Tally.openPopup('mVoRea');
-            }
+            const interval = setInterval(() => {
+                if (window.Tally) {
+                    clearInterval(interval);
+                    window.Tally.openPopup('mVoRea');
+                }
+            }, 100);
         }
     };
 
@@ -76,7 +80,7 @@ function Events() {
                 </div>
             </div>
             <Footer />
-
+            {formOpen && <Form />}
         </div>
     );
 }
