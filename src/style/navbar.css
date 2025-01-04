@@ -2,7 +2,9 @@
     display: flex;
     max-width: 100dvw;
     width: 100%;
+    min-height: 50px;
     justify-content: space-between;
+    align-items: center;
     padding-left: 10dvw;
     padding-right: 10dvw;
     margin-left: 7dvw;
@@ -18,6 +20,8 @@
     top: 0;
     z-index: 100;
     border-radius: 16px;
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 .navLinks {
