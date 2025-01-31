@@ -13,7 +13,7 @@ function Events() {
             <div className="events-section">
                 <Fade><h3 className="eventsHeader">UCalgary Course Signup</h3></Fade>
                 <Fade><h4 className="events-sub-header">Registration is Open.</h4></Fade>
-                <Link to="/register" className="section-one-button">Register Here</Link>
+                <Link to="/register" className="section-one-button">Click to Sign Up</Link>
                 <p className="events-info-text">Register for our 2025 Spring AI Coding Course at the University of Calgary. Classes will be held every Wednesday (March 12 - April 16), see below poster.</p>
                 <img src="/assets/springCourse.webp" className="events-poster" alt="Spring Course Poster"></img>
             </div>
