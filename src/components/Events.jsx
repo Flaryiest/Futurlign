@@ -11,10 +11,10 @@ function Events() {
         <NavBar/>
         <div className="eventsContent">
             <div className="events-section">
-                <Fade><h3 className="eventsHeader">Future Events</h3></Fade>
+                <Fade><h3 className="eventsHeader">UofC Course Signup</h3></Fade>
                 <Fade><h4 className="events-sub-header">Registration is Open.</h4></Fade>
                 <Link to="/register" className="section-one-button">Register Here</Link>
-                <p className="events-info-text">Register for our 2025 Spring AI Course. The course will take place with one class a week from March 12 - April 16, and aims to introduce students to Artificial Intelligence.</p>
+                <p className="events-info-text">Register for our 2025 Spring AI Coding Course at the University of Calgary. Classes will be held every Wednesday (March 12 - April 16), see below poster.</p>
             </div>
 
             <Fade><h2 className="eventsHeader">Futurlign Aligns</h2></Fade>
