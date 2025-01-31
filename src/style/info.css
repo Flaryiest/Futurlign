@@ -15,7 +15,6 @@ html {
     color: var(--primary-text-color);
     font-family: 'Inter Tight', 'Roboto', Inter, sans-serif;
     line-height: 1.5;
-
     max-width: 100dvw;
     height: 1500px;
     background-color: white;
