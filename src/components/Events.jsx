@@ -12,9 +12,9 @@ function Events() {
         <div className="eventsContent">
             <div className="events-section">
                 <Fade><h3 className="eventsHeader">Future Events</h3></Fade>
-                <Fade><h4 className="events-sub-header">General Interest Form</h4></Fade>
-                <Link to="/register" className="section-one-button">Apply Here</Link>
-                <p className="events-info-text">Register for our email communications to stay informed on upcoming events.</p>
+                <Fade><h4 className="events-sub-header">Registration is Open.</h4></Fade>
+                <Link to="/register" className="section-one-button">Register Here</Link>
+                <p className="events-info-text">Register for our 2025 Spring AI Course. The course will take place with one class a week from March 12 - April 16, and aims to introduce students to Artificial Intelligence.</p>
             </div>
 
             <Fade><h2 className="eventsHeader">Futurlign Aligns</h2></Fade>
