@@ -13,17 +13,8 @@ export default function Form() {
     }, []);
 
     return (
-        <div style={{ margin: 0, height: '100%', overflow: 'hidden' }}>
-            <iframe
-                data-tally-src="https://tally.so/r/mVoRea?transparentBackground=1"
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                marginHeight="0"
-                marginWidth="0"
-                title="Futurlign General Interest Registration: 2025-Q1"
-                style={{ position: 'absolute', top: 0, right: 0, bottom: 0, left: 0, border: 0 }}
-            ></iframe>
+        <div style={{ margin: 0, height: '100%', overflow: 'hidden', width: '100%' }}>
+            <iframe data-tally-src="https://tally.so/r/npJAaP?transparentBackground=1" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="Futurlign 2025 Spring UofC AI Course Registration"></iframe>
         </div>
     );
 }
