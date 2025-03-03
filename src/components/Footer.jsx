@@ -13,7 +13,7 @@ function Footer() {
             </div>
             <div className="footerRight">
                 <div className="footerHeader"></div>
-                <div className="footerContentSmall">Web Design & Development By ericmzuo1@gmail.com</div>
+                <div className="footerContentSmall"></div>
             </div>
         </div>
         <div className="fade marginBottom"></div>
