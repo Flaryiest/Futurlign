@@ -15,7 +15,7 @@ export default function Course() {
     }, []);
 
     return (
-        <div style={{ margin: 300, height: '1000%', overflow: 'hidden', width: '100%'}}>
+        <div style={{ margin: 0, height: '1000%', overflow: 'hidden', width: '100%'}}>
             <iframe src="https://docs.google.com/document/d/e/2PACX-1vRliNYLOdtTSdRZLxKW2ihKDSp7j5uXn924giDk54czi_rrtI21XibRj-rTJkbEEsY6Wa3QJarcJ7R7/pub?embedded=true" width="100%" height="800px" frameborder="0" marginheight="0" marginwidth="0" display='flex' style='border:none;' title="Futurlign 2025 Spring UofC AI Course Registration"> </iframe>
         </div>
     );
