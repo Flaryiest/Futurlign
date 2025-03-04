@@ -1,8 +1,8 @@
-import '../style/Course.css'
+import '../style/Class.css'
 
 import { useEffect } from 'react';
 
-export default function Course() {
+export default function Class() {
     useEffect(() => {
         const script = document.createElement('script');
         script.src = "https://tally.so/widgets/embed.js";
