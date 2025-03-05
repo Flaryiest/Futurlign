@@ -9,6 +9,7 @@ import SignUpForm from './components/SignUpForm/SignUpForm.jsx'
 import Form from "./components/Form.jsx"
 import Class from "./components/Class.jsx"
 import Map from "./components/Map.jsx"
+import Access from "./components/Access.jsx"
 import "/src/style/App.css"
 import './style/index.css'
 
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
   {
     path: "/map",
     element: <Map/>
+  },
+  {
+    path: "/access",
+    element: <Access/>
   }
 ])
 
