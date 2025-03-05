@@ -47,7 +47,7 @@ const router = createBrowserRouter([
     element: <Map/>
   },
   {
-    path: "/access",
+    path: "/qr",
     element: <Access/>
   }
 ])
