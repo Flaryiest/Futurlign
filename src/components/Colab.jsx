@@ -8,7 +8,7 @@ export default function Colab() {
 
     return (
         <div className="redirect-container">
-            <p>Redirecting to Google Maps...</p>
+            <p>Redirecting to Colab...</p>
             <div className="spinner"></div>
         </div>
     );
