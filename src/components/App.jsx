@@ -30,7 +30,7 @@ function App() {
           </Link>
         </div>
 
-        <img className="section-one-image" id="up" src="/assets/index-image-ai.png" alt="AI Illustration" />
+        <img className="section-one-image" id="up" src="/assets/index-image-ai.webp" alt="AI Illustration" />
       </div>
     </div>
     <Banner />
