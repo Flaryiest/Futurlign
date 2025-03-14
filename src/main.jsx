@@ -11,6 +11,7 @@ import Class from "./components/Class.jsx"
 import Map from "./components/Map.jsx"
 import Access from "./components/Access.jsx"
 import Colab from "./components/Colab.jsx"
+import WeekOne from './components/WeekOne.jsx'
 import "/src/style/App.css"
 import './style/index.css'
 
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
   {
     path: "/colab",
     element: <Colab/>
+  },
+  {
+    path: "/week1",
+    element: <WeekOne/>
   }
 ])
 
