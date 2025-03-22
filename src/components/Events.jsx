@@ -39,7 +39,7 @@ function Events() {
             </div>
             <div className="eventsSection">
                 <Fade><h2 className="eventsHeader">Upcoming Events</h2></Fade>
-                <div className="eventsText">Check back in the near future! We will have new events around the start of January.</div>
+                <div className="eventsText">Check back in the near future! Futurlign has scheduled the WildRose Hacks youth coding competition for April-May 2025.</div>
             </div>
             <div className="eventsSection">
                 <Fade><h2 className="eventsHeader">Past Events</h2></Fade>
