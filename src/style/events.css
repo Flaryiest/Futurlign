@@ -88,6 +88,10 @@
     max-width: min(90dvw, 600px);
 }
 
+.instagram {
+    color:  #d82a75;
+}
+
 @media only screen and (max-width: 1100px) {
     .eventsImageRow {
         flex-direction: column;

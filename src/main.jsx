@@ -11,6 +11,7 @@ import Class from "./components/Class.jsx"
 import Map from "./components/Map.jsx"
 import Access from "./components/Access.jsx"
 import Colab from "./components/Colab.jsx"
+import Interest from "./components/Interest.jsx"
 import WeekOne from './components/WeekOne.jsx'
 import WeekTwo from './components/WeekTwo.jsx'
 import TeachMachine from './components/teachMachine.jsx'
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
   {
     path: "/signup",
     element: <Form/>
+  },
+  {
+    path: "/interest",
+    element: <Interest/>
   },
   {
     path: "/register",
