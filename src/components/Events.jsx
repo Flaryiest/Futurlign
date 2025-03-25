@@ -13,7 +13,7 @@ function Events() {
             <div className="events-section">
                 <Fade><h3 className="eventsHeader">UCalgary Course Signup</h3></Fade>
                 <Fade><h4 className="events-sub-header">Registration is Closed.</h4></Fade>
-                <Link to="/register" className="section-one-button">Join Mailing List</Link>
+                <Link to="/interest" className="section-one-button">Join Mailing List</Link>
                 <p className="events-info-text">Please fill out the general interest form to be notified of future events and programs through our mailing list. Follow us on Instagram <a href="https://www.instagram.com/futurlign/" className="instagram">@futurlign</a>.</p>
                 <img src="/assets/springCourse.webp" className="events-poster" alt="Spring Course Poster"></img>
             </div>
