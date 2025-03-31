@@ -14,6 +14,7 @@ import Colab from "./components/Colab.jsx"
 import Interest from "./components/Interest.jsx"
 import WeekOne from './components/WeekOne.jsx'
 import WeekTwo from './components/WeekTwo.jsx'
+import WeekThree from './components/WeekThree.jsx'
 import TeachMachine from './components/teachMachine.jsx'
 import "/src/style/App.css"
 import './style/index.css'
@@ -70,6 +71,10 @@ const router = createBrowserRouter([
   {
     path: "/week2",
     element: <WeekTwo/>
+  },
+  {
+    path: "/week3",
+    element: <WeekThree/>
   },
   {
     path: "/teach.machine",
