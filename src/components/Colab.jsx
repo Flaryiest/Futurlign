@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 
 export default function Colab() {
     useEffect(() => {
-        window.location.href = "https://colab.research.google.com/drive/12-poPwEsVxFL9UIk4mm_117ciykAuTZz";
+        window.location.href = "https://colab.research.google.com/drive/13-bwUPV1x80mgaoa6evE7yWn1up6xtXJ";
     }, []);
 
     return (
