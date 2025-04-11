@@ -16,6 +16,7 @@ import WeekOne from './components/WeekOne.jsx'
 import WeekTwo from './components/WeekTwo.jsx'
 import WeekThree from './components/WeekThree.jsx'
 import WeekFour from './components/WeekFour.jsx'
+import WeekFive from './components/WeekFive.jsx'
 import TeachMachine from './components/teachMachine.jsx'
 import "/src/style/App.css"
 import './style/index.css'
@@ -80,6 +81,10 @@ const router = createBrowserRouter([
   {
     path: "/week4",
     element: <WeekFour/>
+  },
+  {
+    path: "/week5",
+    element: <WeekFive/>
   },
   {
     path: "/teach.machine",
