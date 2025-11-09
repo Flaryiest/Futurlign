@@ -15,7 +15,6 @@ function Events() {
                 <Fade><h4 className="events-sub-header">Registration is Closed.</h4></Fade>
                 <Link to="/interest" className="section-one-button">Join Mailing List</Link>
                 <p className="events-info-text">Please fill out the general interest form to be notified of future events and programs through our mailing list. Follow us on Instagram <a href="https://www.instagram.com/futurlign/" className="instagram">@futurlign</a>.</p>
-                <img src="/assets/springCourse.webp" className="events-poster" alt="Spring Course Poster"></img>
             </div>
 
             <Fade><h2 className="eventsHeader">Futurlign Aligns</h2></Fade>
@@ -39,11 +38,11 @@ function Events() {
             </div>
             <div className="eventsSection">
                 <Fade><h2 className="eventsHeader">Upcoming Events</h2></Fade>
-                <div className="eventsText">Check back in the near future! Futurlign has scheduled the WildRose Hacks youth coding competition for April-May 2025.</div>
+                <div className="eventsText">Check back in the near future! </div>
             </div>
             <div className="eventsSection">
                 <Fade><h2 className="eventsHeader">Past Events</h2></Fade>
-                <div className="eventsText">Our 2024 AI workshops and coding classes have seen over 100 Calgary-area junior high youth successfully complete courses at the University of Calgary and Calgary Public Library, igniting their interest in technology and innovation. Participants explored foundational concepts of artificial intelligence, learning how AI systems operate and the principles behind machine learning. Through hands-on experience with Python coding and TensorFlow, students gained practical skills in building their own AI models and applications. AI Ethics, Responsible and Sustainable Usage, and Alignment were also covered to great importance.</div>
+                <div className="eventsText">Our AI workshops and coding classes have seen over 300 Calgary-area junior high youth successfully complete courses at the University of Calgary and Calgary Public Library, igniting their interest in technology and innovation. Participants explored foundational concepts of artificial intelligence, learning how AI systems operate and the principles behind machine learning. Through hands-on experience with Python coding and live demonstrations, students gained practical skills in building their own AI models and applications. In addition, we covered AI ethics, responsible/sustainable usage, and AI alignment: important facets of this ever-evolving technology.</div>
             </div>
         </div>
         <Footer/>
